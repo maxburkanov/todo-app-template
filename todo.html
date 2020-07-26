@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="todo.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <div class="right">
+      <i class="far fa-envelope"></i>
+      <i class="far fa-comments"></i>
+      <i class="far fa-check-circle"></i>
+      <i class="far fa-calendar"></i>
+      <i class="far fa-star"></i>
+    </div>
+    <div class="left">
+      <div class="icons">
+        <span>English</span>
+        <i class="far fa-square"></i>
+        <i class="fas fa-search"></i>
+        <i class="far fa-bell"></i>
+      </div>
+      <div class="person"> 
+        <a href="#">John Doe <br> <span>Available</span></a>
+        <div class="avatar">
+          <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="menu">
+
+      <div class="new-task">
+        <button><i class="fas fa-plus"></i> New Task </button>
+      </div>
+      <div class="toggle">
+        <i class="fas fa-bars"></i>
+        All
+      </div>
+      <div class="filters">
+        <label for="filters">FILTERS</label>
+      </div>
+
+
+
+      <div class="menu-list">
+        <a href="#">
+          <span><i class="far fa-star"></i></span>
+          <span>Favorites</span>
+        </a>
+        <a href="#">
+          <span><i class="fas fa-check"></i></span>
+          <span>Done</span>
+        </a>
+        <a href="#">
+          <span><i class="far fa-trash-alt"></i>  </span>
+          <span>Deleted</span>
+        </a>
+      </div>
+
+
+      <div class="labels">
+        <label for="labels">LABELS</label>
+      </div>
+
+
+
+
+
+      <div class="menu-list">
+        <a class="space-between" href="#">
+          <span>Frontend</span>
+          <span class="bullet" style="background-color: #5A8DEE;"></span>
+        </a>
+        <a class="space-between" href="#">
+          <span>Backend</span>
+          <span class="bullet" style="background-color: #39DA8A;"></span>
+        </a>
+        <a class="space-between" href="#">
+          <span>Issue</span>
+          <span class="bullet" style="background-color: #FF5B5C;"></span>
+        </a>
+        <a class="space-between" href="#">
+          <span>Design</span>
+          <span class="bullet" style="background-color: #FDAC41;"></span>
+        </a>
+        <a class="space-between" href="#">
+          <span>Wireframe</span>
+          <span class="bullet" style="background-color: #00CFDD;"></span>
+        </a>
+      </div>
+
+
+
+    </div>
+
+    <div class="list">
+
+      <div class="search">
+        <fieldset class="">
+          <div class="search-icon">
+            <i class="fas fa-search"></i>
+            <input type="text" class="" id="todo-search" placeholder="Search Task">
+          </div>
+        </fieldset>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+            Sort
+          </button>
+          <div class="dropdown-menu">
+            ...
+          </div>
+        </div>
+    
+    </div>
+
+    <div class="todo-list">
+      <ul>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+        <li>
+          <div class="todo-left-end">
+            <input type="checkbox">
+            <span>Are You Struggling In Life</span>
+          </div>
+
+          <div class="todo-right-end">
+            <div class="issue">ISSUE</div>
+            <div class="backend">BACKEND</div>
+            <div class="person-img"> 
+                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-11/8/20/campaign_images/233a50525782/trumps-allies-have-been-attacking-the-person-they-2-1901-1573245212-0_dblbig.jpg" alt="">
+            </div>
+            <div class="star"><i class="far fa-star"></i></div>
+            <div class="trash"><i class="far fa-trash-alt"></i></div>
+          </div>
+        </li>
+
+
+
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

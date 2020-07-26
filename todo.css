@@ -1,0 +1,208 @@
+body {
+  background-color: #F2F4F4;
+  margin: 8px 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+
+nav img {
+  width: 40px;
+  border-radius: 1.5rem;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* NAVIGATON TOP BAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #475F7B;
+}
+nav i {
+  margin: 10px;
+}
+.left {
+  display: flex;
+}
+.left .icons {
+  align-self: center;
+}
+.left .person {
+  display: flex;
+}
+nav .person a {
+  text-decoration: none;
+  font-size: .8em;
+  margin: auto;
+  color: #727E8C;
+  text-align: end;
+}
+nav .person span {
+  font-size: .8em;
+}
+
+
+
+/* LEFT MENU SIDE */
+
+
+main {
+  display: grid;
+  grid-template-columns: 1.2fr 5fr;
+  margin-top: 20px;
+
+}
+
+
+main  {
+  border: 1px solid #BAC0C7;
+  border-radius: 4px;
+}
+.menu  {
+  padding-top: 20px;
+}
+.menu label {
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  color: #BAC0C7;
+  font-weight: 900; 
+}
+
+.menu .new-task button {
+  width: 100%;
+  border: 0;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #5A8DEE;
+  box-shadow: 0 2px 4px 0 rgba(90,141,238,.4);
+  color: white;
+}
+main .menu .menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.menu .menu-list span i {
+  margin-right: 15px;
+}
+.menu div, .menu a {
+  margin: 10px;
+  text-decoration: none;
+  color: #727E8C;
+}
+.menu-list .bullet {
+  background-color: black;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  align-self: center;
+}
+.menu-list .space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* LIST CONTENT */
+
+/*SEARCH SEC*/
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 60px;
+  border-bottom: 1.3px solid #F2F4F4;
+  padding: 0 15px;
+  box-shadow: 0 2px 4px 0 rgba(215, 217, 219, 0.4);
+}
+ .search fieldset {
+  width: 60%;
+}
+.search  input {
+  border: 0;
+  width: 90%;
+} 
+.search .search-icon {
+  width: 100%;
+}
+.btn-group .btn-secondary {
+  color: #727E8C;
+  background-color: white;
+  border-color: #727E8C;
+}
+
+
+/*SEARCH SEC EDNS*/
+.list {
+  background-color: white;
+  color: #4C637E;
+}
+.todo-list {
+  border-top: 1px solid #F2F4F4;
+  border-bottom: 1px solid #F2F4F4;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  height: 60px;
+}
+.todo-list li .todo-right-end {
+  display: flex;
+  align-items: center;
+}
+.todo-list li .todo-right-end div {
+  margin: 0 5px;
+}
+.todo-list img {
+  width: 30px;
+  border-radius: 1.5rem;
+  height: 30px;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  padding: 10px 15px;
+  border-bottom: 1.3px solid #F2F4F4;
+  padding-left: 40px;
+}
+li span {
+  padding-left: 20px;
+}
+li .todo-right-end .issue {
+  background-color: #FFDEDE;
+  color: #FF5B5C;
+  border-radius: 45px;
+  padding: 2px 20px!important;
+}
+li .todo-right-end .backend {
+  background-color: #D2FFE8;
+  color: #46DD92;
+  border-radius: 45px;
+  padding: 2px 20px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
