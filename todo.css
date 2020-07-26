@@ -194,7 +194,10 @@ li .todo-right-end .backend {
   box-shadow: 8px 4px 8px 2px rgba(215, 217, 219, 0.4);
 
 }
-
+.menu .menu-list #list:focus {
+  color: #5A8DEE;
+  border-left: 1px solid #5A8DEE;
+}
 
 
 
