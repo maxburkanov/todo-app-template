@@ -181,13 +181,19 @@ li .todo-right-end .issue {
   background-color: #FFDEDE;
   color: #FF5B5C;
   border-radius: 45px;
-  padding: 2px 20px!important;
+  padding: 3px 20px!important;
+  font-size: 0.8em;
+  font-weight: 900;
+  letter-spacing: 1.5px;
 }
 li .todo-right-end .backend {
   background-color: #D2FFE8;
   color: #46DD92;
   border-radius: 45px;
-  padding: 2px 20px!important;
+  padding: 3px 20px!important;
+  font-size: 0.8em;
+  font-weight: 900;
+  letter-spacing: 1.5px;
 }
 
 .todo-list ul li:hover {
